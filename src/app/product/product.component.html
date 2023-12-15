@@ -1,5 +1,5 @@
 <input type="text" placeholder="price" [(ngModel)]="price">
-<table border="2">
+<table class="table" border="2">
 
     <tr>
         <th>ID</th>
@@ -18,8 +18,9 @@
             <td>{{p.quantity}}</td>
             <td>{{p.like}}</td>
             <td>{{p.description}}</td>
-            <td><button (click)="increment(i)">Like</button></td>
-            <td><button (click)="buy(i)" [disabled]="p.quantity==0">buy</button></td>
+            <td><button class="btn btn-info" (click)="increment(i)">Like</button></td>
+            <td><button class="btn btn-danger" (click)="buy(i)" [disabled]="p.quantity==0">buy</button></td>
+            <td><button class="btn btn-success" [routerLink]="['/product',p.id]">Details</button></td>
         </ng-container>
     </tr>
 </table>

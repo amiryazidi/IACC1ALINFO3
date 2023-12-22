@@ -8,5 +8,5 @@ export class
   price!:number;
   quantity!:number;
   like!:number;
-  description!:string;
+  image!:string;
 }

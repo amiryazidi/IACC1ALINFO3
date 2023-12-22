@@ -7,6 +7,8 @@ import { ResidenceComponent } from './residence/residence.component';
 import { TestComponent } from './test/test.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { TvComponent } from './tv/tv.component';
+import { MobileComponent } from './mobile/mobile.component';
 
 const routes: Routes = [
   {path:'home', component:TestComponent},
@@ -16,6 +18,8 @@ const routes: Routes = [
   {path:'showApparts/:id',component:AppartmentsComponent},
   {path:'residence',component:ResidenceComponent},
   {path:'form',component:ReactiveFormComponent},
+  {path:'tv',component:TvComponent},
+  {path:'mobile',component:MobileComponent},
   {path:'**', component:NotFoundComponent}
 ];
 

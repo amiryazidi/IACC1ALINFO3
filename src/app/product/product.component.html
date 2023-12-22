@@ -17,7 +17,7 @@
             <td>{{p.price}}</td>
             <td>{{p.quantity}}</td>
             <td>{{p.like}}</td>
-            <td>{{p.description}}</td>
+            <td>{{p.image}}</td>
             <td><button class="btn btn-info" (click)="increment(i)">Like</button></td>
             <td><button class="btn btn-danger" (click)="buy(i)" [disabled]="p.quantity==0">buy</button></td>
             <td><button class="btn btn-success" [routerLink]="['/product',p.id]">Details</button></td>

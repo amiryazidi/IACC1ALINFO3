@@ -9,9 +9,9 @@ import { product } from '../core/models/product';
 export class ProductComponent {
   price!:number;
 listProducts:product[]=[
-  {id:1,title:'t-shirt 1',price:50,quantity:10,like:0,description:"test"},
-  {id:2,title:'t-shirt 2',price:30,quantity:5,like:0,description:""},
-  {id:3,title:'t-shirt 3',price:20,quantity:0,like:5,description:""}
+  {id:1,title:'t-shirt 1',price:50,quantity:10,like:0,image:"test"},
+  {id:2,title:'t-shirt 2',price:30,quantity:5,like:0,image:""},
+  {id:3,title:'t-shirt 3',price:20,quantity:0,like:5,image:""}
 ]
 
 increment(i:number){

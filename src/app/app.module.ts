@@ -15,6 +15,7 @@ import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 import { TvComponent } from './tv/tv.component';
 import { MobileComponent } from './mobile/mobile.component';
 import { ShowOneProductComponent } from './show-one-product/show-one-product.component';
+import { AddProductComponent } from './add-product/add-product.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ShowOneProductComponent } from './show-one-product/show-one-product.com
     ReactiveFormComponent,
     TvComponent,
     MobileComponent,
-    ShowOneProductComponent
+    ShowOneProductComponent,
+    AddProductComponent
   ],
   imports: [
     BrowserModule,

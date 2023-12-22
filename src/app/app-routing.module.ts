@@ -9,6 +9,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { TvComponent } from './tv/tv.component';
 import { MobileComponent } from './mobile/mobile.component';
+import { AddProductComponent } from './add-product/add-product.component';
 
 const routes: Routes = [
   {path:'home', component:TestComponent},
@@ -20,6 +21,7 @@ const routes: Routes = [
   {path:'form',component:ReactiveFormComponent},
   {path:'tv',component:TvComponent},
   {path:'mobile',component:MobileComponent},
+  {path:'add',component:AddProductComponent},
   {path:'**', component:NotFoundComponent}
 ];
 

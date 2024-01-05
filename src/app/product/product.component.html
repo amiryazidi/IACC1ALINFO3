@@ -24,6 +24,7 @@
             <td><button class="btn btn-info" (click)="increment(i)">Like</button></td>
             <td><button class="btn btn-danger" (click)="buy(i)" [disabled]="p.quantity==0">buy</button></td>
             <td><button class="btn btn-success" [routerLink]="['/product',p.id]">Details</button></td>
+            <td><button class="btn btn-warning" (click)="delete(p.id)">delete</button></td>
         </ng-container>
     </tr>
 </table>

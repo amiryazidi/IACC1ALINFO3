@@ -2,10 +2,10 @@
   "products": [
     {
       "id": 1,
-      "title": "Product 1",
-      "price": 20,
-      "quantity": 10,
-      "like": 5
+      "title": "alooo",
+      "price": 0,
+      "like": 5,
+      "quantity": 10
     }
   ]
 }

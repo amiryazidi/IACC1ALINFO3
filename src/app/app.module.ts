@@ -17,6 +17,7 @@ import { MobileComponent } from './mobile/mobile.component';
 import { ShowOneProductComponent } from './show-one-product/show-one-product.component';
 import { AddProductComponent } from './add-product/add-product.component';
 import { HttpClientModule } from '@angular/common/http';
+import { UpdateProductComponent } from './update-product/update-product.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +32,8 @@ import { HttpClientModule } from '@angular/common/http';
     TvComponent,
     MobileComponent,
     ShowOneProductComponent,
-    AddProductComponent
+    AddProductComponent,
+    UpdateProductComponent
   ],
   imports: [
     BrowserModule,

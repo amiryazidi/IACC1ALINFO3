@@ -23,4 +23,8 @@ export class ConsumerProductService {
     return this.http.delete('http://localhost:3000/products'+'/'+id)
   }
 
+  updateProduct(produit:product,id:number){
+    return this.http.put('http://localhost:3000/products'+'/'+id,produit)
+  }
+
 }
